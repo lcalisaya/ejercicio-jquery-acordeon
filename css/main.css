@@ -1,0 +1,46 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lemonada', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C70039;
+}
+
+/*Bloque acordeón*/
+.acordeon {
+  width: 800px;
+}
+
+.panel {
+  margin: 5px;
+}
+
+.panel__cabecera {
+  background-color: #19E33B;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+
+.panel__contenido {
+  background-color: #76DF88;
+  padding: 10px;
+  display:none;
+}
