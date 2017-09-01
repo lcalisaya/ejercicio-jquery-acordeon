@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #C70039;
+  background-color: #3C3352;
 }
 
 /*Bloque acordeón*/
@@ -33,14 +33,14 @@ body {
 }
 
 .panel__cabecera {
-  background-color: #19E33B;
+  background-color: #359768;
   padding: 10px;
   border-bottom: 1px solid #000;
   cursor: pointer;
 }
 
 .panel__contenido {
-  background-color: #76DF88;
+  background-color: #A7D46F;
   padding: 10px;
   display:none;
 }
